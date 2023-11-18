@@ -1,0 +1,44 @@
+.main-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  width: 1280px;
+  height: auto;
+  .header-inner {
+    width: 1280px;
+    height: 200px;
+    display: flex;
+    .header-blog-logo {
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .blog-title {
+      font-size: 20px;
+    }
+  }
+  .blog-seciton {
+    padding: 0 auto;
+    .list-table {
+      width: 1280px;
+      border: 1px solid black;
+      .list-table-header {
+        td {
+          width: 300px;
+          background-color: blanchedalmond;
+          font-size: 20px;
+        }
+      }
+    }
+    .list-edit {
+      margin-top: 30px;
+      gap: 20px;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 50px;
+    }
+  }
+  .main-footer {
+    float: right;
+  }
+}
