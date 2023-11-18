@@ -1,4 +1,4 @@
-.create-inner {
+.edit-inner {
   width: 80%;
   margin: 20px auto;
   padding: 20px;
@@ -6,20 +6,20 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
-.create-inner form {
+.edit-inner form {
   display: flex;
   flex-direction: column;
 }
-.create-inner label {
+.edit-inner label {
   margin-top: 10px;
   font-weight: bold;
 }
-.create-inner input,
-.create-inner textarea {
+.edit-inner input,
+.edit-inner textarea {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
   margin-bottom: 15px;
   box-sizing: border-box;
   resize: none;
-} /*# sourceMappingURL=create.css.map */
+}/*# sourceMappingURL=create.css.map */

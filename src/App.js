@@ -6,6 +6,7 @@ import NotFound from "./components/NotFound";
 import PostCreate from "./components/PostCreate";
 import PostEdit from "./components/PostEdit";
 import Login from "./components/Login";
+import "./styles/normalize.css";
 
 function App() {
   return (
